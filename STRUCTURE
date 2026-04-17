@@ -1,0 +1,4 @@
+feature follow-recommends
+include platform
+desktop: desktop-common
+live: desktop live-common
