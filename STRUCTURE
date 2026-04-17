@@ -1,4 +1,4 @@
 feature follow-recommends
-include platform
+include seeds-platform.noble
 desktop: desktop-common
 live: desktop live-common
