@@ -4,4 +4,4 @@ This repository contains "seeds" which are used by [Germinate](Germinate) to gen
 
 # Platform
 
-Seeds from platform directory are from Ubuntu's official repository https://git.launchpad.net/~ubuntu-core-dev/ubuntu-seeds/+git/platform
+Check platform seeds at https://github.com/live-performer/seeds-platform
