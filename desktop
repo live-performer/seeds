@@ -5,4 +5,5 @@ Task-Extended-Description: This task provides the Live Performer OS desktop envi
 Task-Key: live-performer-desktop
 Task-Seeds: desktop-common
 
+ * mate-desktop-environment
  * live-performer-desktop # metapackage for everything here
