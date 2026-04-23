@@ -8,7 +8,7 @@ Task-Seeds: desktop-common
 
 ## This seed inherits packages from 'desktop-minimal', so will appear to be missing many important packages.
 
- * xubuntu-desktop-minimal
+ * live-performer-desktop-minimal
 
 == Network Services ==
 
@@ -105,7 +105,7 @@ Basic network services and Windows integration.
  * (xubuntu-community-wallpapers)
 
 == Audio Support ==
-Â *Â gstreamer1.0-pipewire
+ * gstreamer1.0-pipewire
  * (libspa-0.2-bluetooth)           # Duplicated below so germinate sees it
 
 == Secondary audio section required for germinate ==

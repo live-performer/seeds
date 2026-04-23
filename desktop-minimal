@@ -2,7 +2,7 @@ Task-Per-Derivative: 1
 Task-Section: user
 Task-Description: Live Performer desktop
 Task-Extended-Description: This task provides the Live Performer OS desktop environment.
-Task-Key: live-performer-desktop
+Task-Key: live-performer-desktop-minimal
 Task-Seeds: desktop-common
 ----------------------
 
@@ -85,5 +85,5 @@ Basic network services and Windows integration.
  * (pinentry-gnome3)                # for gnome-keyring, LP: #1473952
  * (xcape)
  * (xfce4-screensaver)
- * live-performer-minimal           # metapackage for everything here
+ * live-performer-desktop-minimal   # metapackage for everything here
  * xubuntu-default-settings
