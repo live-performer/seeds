@@ -1,4 +1,6 @@
 feature follow-recommends
 include seeds-platform.noble
-desktop: desktop-common
+desktop: desktop-common desktop-minimal
+desktop-minimal: desktop-common
 live: desktop live-common
+ship-live: desktop-minimal
