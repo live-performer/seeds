@@ -1,14 +1,20 @@
+Xubuntu desktop seed
+====================
+
+----------------------
 Task-Per-Derivative: 1
 Task-Section: user
-Task-Description: Live Performer desktop
-Task-Extended-Description: This task provides the Live Performer OS desktop environment.
-Task-Key: live-performer-desktop
-Task-Seeds: desktop-common
+Task-Description: Xubuntu desktop
+Task-Extended-Description: This task provides the Xubuntu desktop environment.
+Task-Key: xubuntu-desktop
+Task-Name: xubuntu-desktop
+Task-Metapackage: xubuntu-desktop
+Task-Seeds: desktop-common desktop-minimal
 ----------------------
 
 ## This seed inherits packages from 'desktop-minimal', so will appear to be missing many important packages.
 
- * live-performer-desktop-minimal
+ * xubuntu-desktop-minimal
 
 == Network Services ==
 
@@ -105,7 +111,7 @@ Basic network services and Windows integration.
  * (xubuntu-community-wallpapers)
 
 == Audio Support ==
- * gstreamer1.0-pipewire
+ * gstreamer1.0-pipewire
  * (libspa-0.2-bluetooth)           # Duplicated below so germinate sees it
 
 == Secondary audio section required for germinate ==
@@ -130,7 +136,7 @@ Basic network services and Windows integration.
  * (firefox)                        # to satisfy x-www-browser (LP #1991470)
  * (inxi)
  * (pastebinit)
- * live-performer-desktop                  # metapackage for everything here
+ * xubuntu-desktop                  # metapackage for everything here
 
 == Snaps ==
  * snap:firefox

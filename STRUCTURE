@@ -1,6 +1,8 @@
-feature follow-recommends
-include seeds-platform.noble
+include platform.noble
 desktop: desktop-common desktop-minimal
 desktop-minimal: desktop-common
 live: desktop live-common
 ship-live: desktop-minimal
+supported-desktop-extra: desktop ship-live supported-common
+# make sure supported remains the last entry
+supported: supported-desktop-extra
