@@ -91,5 +91,5 @@ Basic network services and Windows integration.
  * (pinentry-gnome3)                # for gnome-keyring, LP: #1473952
  * (xcape)
  * (xfce4-screensaver)
- * xubuntu-desktop-minimal          # metapackage for everything here
+ * live-performer-desktop-minimal          # metapackage for everything here
  * xubuntu-default-settings

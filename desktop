@@ -14,7 +14,7 @@ Task-Seeds: desktop-common desktop-minimal
 
 ## This seed inherits packages from 'desktop-minimal', so will appear to be missing many important packages.
 
- * xubuntu-desktop-minimal
+ * live-performer-desktop-minimal
 
 == Network Services ==
 
@@ -136,7 +136,7 @@ Basic network services and Windows integration.
  * (firefox)                        # to satisfy x-www-browser (LP #1991470)
  * (inxi)
  * (pastebinit)
- * xubuntu-desktop                  # metapackage for everything here
+ * live-performer-desktop                  # metapackage for everything here
 
 == Snaps ==
  * snap:firefox
