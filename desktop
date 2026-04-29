@@ -1,11 +1,11 @@
-Xubuntu desktop seed
+Live Performer desktop seed
 ====================
 
 ----------------------
 Task-Per-Derivative: 1
 Task-Section: user
-Task-Description: Xubuntu desktop
-Task-Extended-Description: This task provides the Xubuntu desktop environment.
+Task-Description: Live Performer desktop
+Task-Extended-Description: This task provides the Live Performer desktop environment.
 Task-Key: live-performer-desktop
 Task-Name: live-performer-desktop
 Task-Metapackage: live-performer-desktop
@@ -31,16 +31,14 @@ Basic network services and Windows integration.
 
 === Common with Ubuntu ===
  * (apport-gtk)
- * (appstream)                  # required by snap:snap-store for appstream cache
- * (apt-config-icons-hidpi)     # required by snap:snap-store for apt icons
+ * (appstream)
+ * (apt-config-icons-hidpi)
  * (baobab)
  * (gnome-disk-utility)
  * (gnome-font-viewer)
  * (gvfs-backends)              # otherwise no network tab
  * (gvfs-fuse)                  # let non-GNOME apps see GVFS via fuse
  * language-selector-gnome      # MichaelVogt
- * (rhythmbox)
- * (transmission-gtk)           # simple GNOME frontend for bittorrent downloads
  * update-manager
  * (update-notifier)
  * (whoopsie)                   # http://wiki.ubuntu.com/ErrorTracker
@@ -56,17 +54,13 @@ Basic network services and Windows integration.
  * (ristretto)
  * (thunar-archive-plugin)
  * (thunar-media-tags-plugin)
- * (xfburn)
  * (xfce4-clipman-plugin)
  * (xfce4-cpugraph-plugin)
  * (xfce4-dict)
- * (xfce4-mailwatch-plugin)
  * (xfce4-netload-plugin)
  * (xfce4-places-plugin)
  * (xfce4-systemload-plugin)
  * (xfce4-taskmanager)
- * (xfce4-verve-plugin)
- * (xfce4-weather-plugin)
  * (xfce4-xkb-plugin)
  * (xfce4-panel-profiles)
 
@@ -79,31 +73,14 @@ Basic network services and Windows integration.
  * (blueman)
  * (catfish)
  * (gdebi)
- * (gimp)
  * (gnome-system-tools)
- * (hexchat)
  * (lightdm-gtk-greeter-settings)
  * (menulibre)                      # menu editor
  * (mousepad)
  * (mugshot)                        # user config
- * (simple-scan)
- * (system-config-printer)
- * (thunderbird) [!s390x]
-
-=== LibreOffice ===
- * (libreoffice-calc) [!armhf]
- * (libreoffice-gnome) [!armhf]
- * (libreoffice-impress) [!armhf]
- * (libreoffice-style-elementary) [!armhf]
- * (libreoffice-writer) [!armhf]
 
 === Indicator/Ayatana stuff ===
  * (indicator-messages)
-
-=== Games: We only ship a few by default ===
- * (gnome-mines)
- * (gnome-sudoku)
- * (sgt-launcher)
 
 === Themes ===
  * (greybird-gtk-theme)
@@ -111,7 +88,7 @@ Basic network services and Windows integration.
  * (xubuntu-community-wallpapers)
 
 == Audio Support ==
- * gstreamer1.0-pipewire
+ * gstreamer1.0-pipewire
  * (libspa-0.2-bluetooth)           # Duplicated below so germinate sees it
 
 == Secondary audio section required for germinate ==
@@ -135,14 +112,5 @@ Basic network services and Windows integration.
  * (apturl)
  * (firefox)                        # to satisfy x-www-browser (LP #1991470)
  * (inxi)
- * (pastebinit)
  * live-performer-desktop                  # metapackage for everything here
 
-== Snaps ==
- * snap:firefox
- * snap:thunderbird
- * snap:gnome-42-2204               # needed for firefox
- * snap:gtk-common-themes           # needed for firefox
- * snap:snap-store
- * snap:snapd-desktop-integration
- * snap:firmware-updater [amd64]
